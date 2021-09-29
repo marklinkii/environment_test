@@ -1,3 +1,4 @@
+=begin
 require 'rails_helper'
 
 RSpec.describe "books/new", type: :view do
@@ -5,7 +6,7 @@ RSpec.describe "books/new", type: :view do
     assign(:book, Book.new(
       title: "MyString",
       author: "MyString",
-      price: ""
+      price: "9.99"
     ))
   end
 
@@ -22,3 +23,4 @@ RSpec.describe "books/new", type: :view do
     end
   end
 end
+=end
